@@ -26,7 +26,7 @@
             app:layout_constraintVertical_bias="1.0">
 
             <EditText
-                android:id="@+id/paino"
+                android:id="@+id/editTextPaino"
                 android:layout_width="match_parent"
                 android:layout_height="85dp"
                 android:ems="10"
@@ -34,7 +34,7 @@
                 android:inputType="numberDecimal" />
 
             <EditText
-                android:id="@+id/pituus"
+                android:id="@+id/editTextPituus"
                 android:layout_width="match_parent"
                 android:layout_height="78dp"
                 android:ems="10"
@@ -42,7 +42,7 @@
                 android:inputType="number" />
 
             <TextView
-                android:id="@+id/textViewPainoLabel"
+                android:id="@+id/tvIka"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Syötä ikä"
@@ -56,7 +56,7 @@
                 android:layout_height="83dp" />
 
             <TextView
-                android:id="@+id/textViewPaino1Label"
+                android:id="@+id/tvAktiivisuus"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Syötä Aktiivisuustaso"
@@ -69,8 +69,8 @@
                 style="@style/Widget.AppCompat.SeekBar.Discrete"
                 android:layout_width="match_parent"
                 android:layout_height="76dp"
-                android:max="10"
-                android:progress="3" />
+                android:max="2"
+                android:progress="0" />
         </LinearLayout>
 
         <LinearLayout
@@ -84,7 +84,7 @@
             app:layout_constraintVertical_bias="0.004">
 
             <TextView
-                android:id="@+id/tulosnautto"
+                android:id="@+id/tvTulos"
                 android:layout_width="match_parent"
                 android:layout_height="133dp"
                 android:text="TextView" />

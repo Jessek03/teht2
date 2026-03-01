@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">Exercise2</string>
+    <string name="ika">Ikä:</string>
+    <string name="aktiivisuus">Aktiivisuus:</string>
 </resources>
